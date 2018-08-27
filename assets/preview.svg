@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" fill="none">
+  <rect width="1200" height="700" fill="#0a0a10" rx="12"/>
+  <rect width="1200" height="44" fill="#111118" rx="12"/>
+  <rect y="32" width="1200" height="12" fill="#111118"/>
+  <circle cx="20" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="22" r="6" fill="#febc2e"/>
+  <circle cx="60" cy="22" r="6" fill="#28c840"/>
+  <rect x="200" y="10" width="400" height="24" rx="12" fill="#1a1a24"/>
+  <text x="400" y="27" font-family="system-ui,sans-serif" font-size="11" fill="#555" text-anchor="middle">localhost:3000 — Match Integrity Dashboard</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="44" width="240" height="656" fill="#0d0d14"/>
+  <text x="20" y="74" font-family="system-ui,sans-serif" font-size="12" fill="#10b981" font-weight="600">Match Integrity</text>
+  <text x="20" y="90" font-family="system-ui,sans-serif" font-size="9" fill="#52525b">Anomaly detection dashboard</text>
+
+  <text x="20" y="120" font-family="system-ui,sans-serif" font-size="9" fill="#52525b" font-weight="600">MATCH INFO</text>
+  <text x="20" y="140" font-family="system-ui,sans-serif" font-size="10" fill="#52525b">ID</text>
+  <text x="200" y="140" font-family="monospace" font-size="10" fill="#d4d4d8" text-anchor="end">MID-2024-4821</text>
+  <text x="20" y="158" font-family="system-ui,sans-serif" font-size="10" fill="#52525b">Map</text>
+  <text x="200" y="158" font-family="system-ui,sans-serif" font-size="10" fill="#d4d4d8" text-anchor="end">Ascent</text>
+  <text x="20" y="176" font-family="system-ui,sans-serif" font-size="10" fill="#52525b">Score</text>
+  <text x="170" y="176" font-family="system-ui,sans-serif" font-size="10" fill="#10b981" text-anchor="end">13</text>
+  <text x="182" y="176" font-family="system-ui,sans-serif" font-size="10" fill="#52525b" text-anchor="middle">-</text>
+  <text x="200" y="176" font-family="system-ui,sans-serif" font-size="10" fill="#ef4444" text-anchor="end">12</text>
+
+  <text x="20" y="210" font-family="system-ui,sans-serif" font-size="9" fill="#52525b" font-weight="600">FLAGGED PLAYERS (2)</text>
+
+  <rect x="16" y="220" width="208" height="52" rx="8" fill="#1a1a2410" stroke="#1e1e2e" stroke-width="1"/>
+  <text x="28" y="240" font-family="system-ui,sans-serif" font-size="11" fill="#d4d4d8">GlitchViper</text>
+  <rect x="168" y="228" width="40" height="16" rx="8" fill="#f59e0b15"/>
+  <text x="188" y="240" font-family="monospace" font-size="9" fill="#f59e0b" text-anchor="middle">72</text>
+  <text x="28" y="260" font-family="system-ui,sans-serif" font-size="9" fill="#52525b">2 anomalies — Review</text>
+
+  <rect x="16" y="280" width="208" height="52" rx="8" fill="#ef444408" stroke="#ef444420" stroke-width="1"/>
+  <text x="28" y="300" font-family="system-ui,sans-serif" font-size="11" fill="#d4d4d8">WraithOps</text>
+  <rect x="168" y="288" width="40" height="16" rx="8" fill="#ef444415"/>
+  <text x="188" y="300" font-family="monospace" font-size="9" fill="#ef4444" text-anchor="middle">42</text>
+  <text x="28" y="320" font-family="system-ui,sans-serif" font-size="9" fill="#52525b">2 anomalies — Flagged</text>
+
+  <!-- Top metrics cards -->
+  <rect x="260" y="56" width="215" height="72" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="1"/>
+  <text x="280" y="78" font-family="system-ui,sans-serif" font-size="10" fill="#52525b">Match Integrity</text>
+  <text x="280" y="108" font-family="monospace" font-size="24" fill="#f59e0b" font-weight="bold">82%</text>
+  <rect x="340" y="98" width="120" height="6" rx="3" fill="#1e1e2e"/>
+  <rect x="340" y="98" width="98" height="6" rx="3" fill="#f59e0b"/>
+
+  <rect x="490" y="56" width="215" height="72" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="1"/>
+  <text x="510" y="78" font-family="system-ui,sans-serif" font-size="10" fill="#52525b">Fairness Index</text>
+  <text x="510" y="108" font-family="monospace" font-size="24" fill="#f59e0b" font-weight="bold">74%</text>
+  <rect x="570" y="98" width="120" height="6" rx="3" fill="#1e1e2e"/>
+  <rect x="570" y="98" width="88" height="6" rx="3" fill="#f59e0b"/>
+
+  <rect x="720" y="56" width="215" height="72" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="1"/>
+  <text x="740" y="78" font-family="system-ui,sans-serif" font-size="10" fill="#52525b">Anomalies</text>
+  <text x="740" y="108" font-family="monospace" font-size="24" fill="#f59e0b" font-weight="bold">4</text>
+
+  <rect x="950" y="56" width="215" height="72" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="1"/>
+  <text x="970" y="78" font-family="system-ui,sans-serif" font-size="10" fill="#52525b">Alerts</text>
+  <text x="970" y="108" font-family="monospace" font-size="24" fill="#ef4444" font-weight="bold">5</text>
+
+  <!-- Integrity bar chart -->
+  <rect x="260" y="144" width="460" height="260" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="1"/>
+  <text x="280" y="170" font-family="system-ui,sans-serif" font-size="12" fill="#d4d4d8" font-weight="600">Player Integrity Scores</text>
+  <text x="280" y="186" font-family="system-ui,sans-serif" font-size="9" fill="#52525b">Lower scores indicate more suspicious behavior</text>
+
+  <!-- Bars -->
+  <rect x="300" y="340" width="30" height="42" rx="3" fill="#ef444480"/>
+  <text x="315" y="396" font-family="system-ui,sans-serif" font-size="7" fill="#52525b" text-anchor="middle" transform="rotate(-35, 315, 396)">WraithOps</text>
+  <text x="315" y="336" font-family="monospace" font-size="8" fill="#ef4444" text-anchor="middle">42</text>
+
+  <rect x="345" y="308" width="30" height="74" rx="3" fill="#f59e0b80"/>
+  <text x="360" y="396" font-family="system-ui,sans-serif" font-size="7" fill="#52525b" text-anchor="middle" transform="rotate(-35, 360, 396)">GlitchViper</text>
+  <text x="360" y="304" font-family="monospace" font-size="8" fill="#f59e0b" text-anchor="middle">72</text>
+
+  <rect x="390" y="290" width="30" height="92" rx="3" fill="#10b98180"/>
+  <text x="405" y="396" font-family="system-ui,sans-serif" font-size="7" fill="#52525b" text-anchor="middle" transform="rotate(-35, 405, 396)">Sentinel</text>
+
+  <rect x="435" y="286" width="30" height="96" rx="3" fill="#10b98180"/>
+  <text x="450" y="396" font-family="system-ui,sans-serif" font-size="7" fill="#52525b" text-anchor="middle" transform="rotate(-35, 450, 396)">RiftRunner</text>
+
+  <rect x="480" y="280" width="30" height="102" rx="3" fill="#10b98180"/>
+  <text x="495" y="396" font-family="system-ui,sans-serif" font-size="7" fill="#52525b" text-anchor="middle" transform="rotate(-35, 495, 396)">NexusKill</text>
+
+  <rect x="525" y="278" width="30" height="104" rx="3" fill="#10b98180"/>
+  <text x="540" y="396" font-family="system-ui,sans-serif" font-size="7" fill="#52525b" text-anchor="middle" transform="rotate(-35, 540, 396)">HexBlade</text>
+
+  <rect x="570" y="274" width="30" height="108" rx="3" fill="#10b98180"/>
+  <text x="585" y="396" font-family="system-ui,sans-serif" font-size="7" fill="#52525b" text-anchor="middle" transform="rotate(-35, 585, 396)">CryptoFlash</text>
+
+  <rect x="615" y="270" width="30" height="112" rx="3" fill="#10b98180"/>
+  <text x="630" y="396" font-family="system-ui,sans-serif" font-size="7" fill="#52525b" text-anchor="middle" transform="rotate(-35, 630, 396)">IronSights</text>
+
+  <rect x="660" y="266" width="30" height="116" rx="3" fill="#10b98180"/>
+  <text x="675" y="396" font-family="system-ui,sans-serif" font-size="7" fill="#52525b" text-anchor="middle" transform="rotate(-35, 675, 396)">DeadEye_X</text>
+
+  <rect x="690" y="262" width="30" height="120" rx="3" fill="#10b98180"/>
+  <text x="705" y="396" font-family="system-ui,sans-serif" font-size="7" fill="#52525b" text-anchor="middle" transform="rotate(-35, 705, 396)">PhantomAce</text>
+
+  <!-- Alerts panel -->
+  <rect x="735" y="144" width="430" height="260" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="1"/>
+  <text x="755" y="170" font-family="system-ui,sans-serif" font-size="12" fill="#d4d4d8" font-weight="600">Integrity Alerts</text>
+  <text x="755" y="186" font-family="system-ui,sans-serif" font-size="9" fill="#52525b">4 unresolved</text>
+  <rect x="1050" y="160" width="50" height="16" rx="8" fill="#ef444415"/>
+  <text x="1075" y="172" font-family="system-ui,sans-serif" font-size="8" fill="#ef4444" text-anchor="middle">1 critical</text>
+  <rect x="1105" y="160" width="50" height="16" rx="8" fill="#f59e0b15"/>
+  <text x="1130" y="172" font-family="system-ui,sans-serif" font-size="8" fill="#f59e0b" text-anchor="middle">3 warning</text>
+
+  <!-- Alert 1 - critical -->
+  <rect x="755" y="198" width="394" height="42" rx="6" fill="#ef444408" stroke="#ef444420" stroke-width="1"/>
+  <circle cx="771" cy="215" r="5" fill="#ef444430"/>
+  <text x="771" y="219" font-family="system-ui,sans-serif" font-size="8" fill="#ef4444" text-anchor="middle">!</text>
+  <text x="786" y="214" font-family="system-ui,sans-serif" font-size="10" fill="#d4d4d8">WraithOps: Suspected throw — 8% critical round win rate</text>
+  <text x="786" y="230" font-family="monospace" font-size="8" fill="#52525b">20:28:00 · Confidence: 84%</text>
+
+  <!-- Alert 2 -->
+  <rect x="755" y="248" width="394" height="42" rx="6" fill="#f59e0b08" stroke="#f59e0b20" stroke-width="1"/>
+  <circle cx="771" cy="265" r="5" fill="#f59e0b30"/>
+  <text x="771" y="269" font-family="system-ui,sans-serif" font-size="8" fill="#f59e0b" text-anchor="middle">!</text>
+  <text x="786" y="264" font-family="system-ui,sans-serif" font-size="10" fill="#d4d4d8">GlitchViper: Aim snap detected (142° in 48ms)</text>
+  <text x="786" y="280" font-family="monospace" font-size="8" fill="#52525b">20:32:14 · Confidence: 68%</text>
+
+  <!-- Alert 3 -->
+  <rect x="755" y="298" width="394" height="42" rx="6" fill="#f59e0b08" stroke="#f59e0b20" stroke-width="1"/>
+  <circle cx="771" cy="315" r="5" fill="#f59e0b30"/>
+  <text x="771" y="319" font-family="system-ui,sans-serif" font-size="8" fill="#f59e0b" text-anchor="middle">!</text>
+  <text x="786" y="314" font-family="system-ui,sans-serif" font-size="10" fill="#d4d4d8">WraithOps: Saving on buy rounds ($4,800 balance)</text>
+  <text x="786" y="330" font-family="monospace" font-size="8" fill="#52525b">20:38:00 · Confidence: 71%</text>
+
+  <!-- Alert 4 -->
+  <rect x="755" y="348" width="394" height="42" rx="6" fill="#f59e0b08" stroke="#f59e0b20" stroke-width="1"/>
+  <circle cx="771" cy="365" r="5" fill="#f59e0b30"/>
+  <text x="771" y="369" font-family="system-ui,sans-serif" font-size="8" fill="#f59e0b" text-anchor="middle">!</text>
+  <text x="786" y="364" font-family="system-ui,sans-serif" font-size="10" fill="#d4d4d8">GlitchViper: HS rate 48% exceeds 2σ threshold</text>
+  <text x="786" y="380" font-family="monospace" font-size="8" fill="#52525b">20:45:00 · Confidence: 72%</text>
+
+  <!-- Bottom: Behavior + Timeline -->
+  <rect x="260" y="420" width="460" height="260" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="1"/>
+  <text x="280" y="446" font-family="system-ui,sans-serif" font-size="12" fill="#d4d4d8" font-weight="600">Behavior Profiles</text>
+  <text x="280" y="462" font-family="system-ui,sans-serif" font-size="9" fill="#52525b">Flagged players — behavioral dimension analysis</text>
+
+  <!-- GlitchViper bars -->
+  <text x="280" y="490" font-family="system-ui,sans-serif" font-size="10" fill="#d4d4d8">GlitchViper</text>
+  <rect x="380" y="482" width="50" height="12" rx="2" fill="#f59e0b20"/><text x="386" y="492" font-family="system-ui,sans-serif" font-size="8" fill="#f59e0b">Review</text>
+
+  <text x="290" y="510" font-family="system-ui,sans-serif" font-size="8" fill="#52525b">Aim Consistency</text>
+  <rect x="390" y="502" width="200" height="6" rx="3" fill="#1e1e2e"/>
+  <rect x="390" y="502" width="90" height="6" rx="3" fill="#ef4444"/>
+  <text x="600" y="510" font-family="monospace" font-size="8" fill="#52525b">45</text>
+
+  <text x="290" y="528" font-family="system-ui,sans-serif" font-size="8" fill="#52525b">Movement</text>
+  <rect x="390" y="520" width="200" height="6" rx="3" fill="#1e1e2e"/>
+  <rect x="390" y="520" width="164" height="6" rx="3" fill="#10b981"/>
+  <text x="600" y="528" font-family="monospace" font-size="8" fill="#52525b">82</text>
+
+  <text x="290" y="546" font-family="system-ui,sans-serif" font-size="8" fill="#52525b">Reaction Profile</text>
+  <rect x="390" y="538" width="200" height="6" rx="3" fill="#1e1e2e"/>
+  <rect x="390" y="538" width="76" height="6" rx="3" fill="#ef4444"/>
+  <text x="600" y="546" font-family="monospace" font-size="8" fill="#52525b">38</text>
+
+  <!-- WraithOps bars -->
+  <text x="280" y="580" font-family="system-ui,sans-serif" font-size="10" fill="#d4d4d8">WraithOps</text>
+  <rect x="380" y="572" width="50" height="12" rx="2" fill="#ef444420"/><text x="386" y="582" font-family="system-ui,sans-serif" font-size="8" fill="#ef4444">Flagged</text>
+
+  <text x="290" y="600" font-family="system-ui,sans-serif" font-size="8" fill="#52525b">Movement Pattern</text>
+  <rect x="390" y="592" width="200" height="6" rx="3" fill="#1e1e2e"/>
+  <rect x="390" y="592" width="80" height="6" rx="3" fill="#ef4444"/>
+  <text x="600" y="600" font-family="monospace" font-size="8" fill="#52525b">40</text>
+
+  <text x="290" y="618" font-family="system-ui,sans-serif" font-size="8" fill="#52525b">Economy Mgmt</text>
+  <rect x="390" y="610" width="200" height="6" rx="3" fill="#1e1e2e"/>
+  <rect x="390" y="610" width="50" height="6" rx="3" fill="#ef4444"/>
+  <text x="600" y="618" font-family="monospace" font-size="8" fill="#52525b">25</text>
+
+  <text x="290" y="636" font-family="system-ui,sans-serif" font-size="8" fill="#52525b">Game Knowledge</text>
+  <rect x="390" y="628" width="200" height="6" rx="3" fill="#1e1e2e"/>
+  <rect x="390" y="628" width="164" height="6" rx="3" fill="#10b981"/>
+  <text x="600" y="636" font-family="monospace" font-size="8" fill="#52525b">82</text>
+
+  <!-- Timeline -->
+  <rect x="735" y="420" width="430" height="260" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="1"/>
+  <text x="755" y="446" font-family="system-ui,sans-serif" font-size="12" fill="#d4d4d8" font-weight="600">Match Timeline</text>
+  <text x="755" y="462" font-family="system-ui,sans-serif" font-size="9" fill="#52525b">Key events and anomaly triggers</text>
+
+  <circle cx="767" cy="486" r="4" fill="#3b82f6"/>
+  <text x="781" y="484" font-family="monospace" font-size="8" fill="#52525b">R1</text>
+  <text x="808" y="484" font-family="system-ui,sans-serif" font-size="8" fill="#3b82f6">ROUND END</text>
+  <text x="781" y="496" font-family="system-ui,sans-serif" font-size="9" fill="#d4d4d8">Round 1 — Alpha wins</text>
+
+  <rect x="766" y="494" width="1" height="16" fill="#1e1e2e"/>
+  <circle cx="767" cy="518" r="4" fill="#f59e0b"/>
+  <text x="781" y="516" font-family="monospace" font-size="8" fill="#52525b">R3</text>
+  <text x="808" y="516" font-family="system-ui,sans-serif" font-size="8" fill="#f59e0b">ALERT</text>
+  <text x="781" y="528" font-family="system-ui,sans-serif" font-size="9" fill="#d4d4d8">WraithOps: Unusual positioning</text>
+
+  <rect x="766" y="530" width="1" height="16" fill="#1e1e2e"/>
+  <circle cx="767" cy="554" r="4" fill="#ef4444"/>
+  <text x="781" y="552" font-family="monospace" font-size="8" fill="#52525b">R10</text>
+  <text x="812" y="552" font-family="system-ui,sans-serif" font-size="8" fill="#ef4444">ALERT</text>
+  <rect x="850" y="544" width="50" height="12" rx="3" fill="#ef444415"/>
+  <text x="875" y="554" font-family="system-ui,sans-serif" font-size="7" fill="#ef4444" text-anchor="middle">CRITICAL</text>
+  <text x="781" y="564" font-family="system-ui,sans-serif" font-size="9" fill="#d4d4d8">WraithOps: Critical round throw detected</text>
+
+  <rect x="766" y="568" width="1" height="16" fill="#1e1e2e"/>
+  <circle cx="767" cy="592" r="4" fill="#f59e0b"/>
+  <text x="781" y="590" font-family="monospace" font-size="8" fill="#52525b">R12</text>
+  <text x="812" y="590" font-family="system-ui,sans-serif" font-size="8" fill="#f59e0b">ALERT</text>
+  <text x="781" y="602" font-family="system-ui,sans-serif" font-size="9" fill="#d4d4d8">GlitchViper: Aim snap 142° in 48ms</text>
+
+  <rect x="766" y="606" width="1" height="16" fill="#1e1e2e"/>
+  <circle cx="767" cy="630" r="4" fill="#3b82f6"/>
+  <text x="781" y="628" font-family="monospace" font-size="8" fill="#52525b">R25</text>
+  <text x="812" y="628" font-family="system-ui,sans-serif" font-size="8" fill="#3b82f6">ROUND END</text>
+  <text x="781" y="640" font-family="system-ui,sans-serif" font-size="9" fill="#d4d4d8">Match ends — Alpha 13, Bravo 12</text>
+</svg>
