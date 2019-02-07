@@ -1,4 +1,4 @@
-interface PlayerStats {
+export interface AnomalyStats {
   kills: number;
   deaths: number;
   accuracy: number;
@@ -21,7 +21,7 @@ const THRESHOLDS = {
   speedMultiplier: 1.5,
 };
 
-export function detectAnomalies(stats: PlayerStats, baseline: PlayerStats): AnomalyResult {
+export function detectAnomalies(stats: AnomalyStats, baseline: AnomalyStats): AnomalyResult {
   const flags: string[] = [];
   let score = 0;
 
