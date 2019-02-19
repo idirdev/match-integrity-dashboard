@@ -72,3 +72,21 @@ src/
 ## License
 
 MIT — free to use, modify, and distribute.
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+Match Integrity Dashboard est un tableau de bord d'analyse de l'intégrité des matchs compétitifs. Il détecte les anomalies de visée, les schémas de match-fixing, les exploits économiques et les incohérences comportementales à travers les matchs compétitifs. Chaque joueur et chaque match reçoivent un score d'intégrité basé sur l'analyse comportementale.
+
+### Installation
+```bash
+git clone https://github.com/idirdev/match-integrity-dashboard.git
+cd match-integrity-dashboard
+npm install
+npm run dev
+```
+
+### Utilisation
+Lancez l'application et importez vos données de matchs pour obtenir des analyses d'intégrité détaillées. Consultez la documentation en anglais ci-dessus pour la liste complète des détections et indicateurs disponibles.
