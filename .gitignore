@@ -3,3 +3,6 @@ node_modules/
 out/
 .env
 .DS_Store
+
+# Runtime match store (populated at runtime, not version controlled)
+data/matches.json
