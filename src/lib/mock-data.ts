@@ -71,7 +71,7 @@ export const mockMatch: MatchData = {
           stats: { kills: 8, deaths: 22, assists: 4, accuracy: 15.2, headshotRate: 8, avgReactionTimeMs: 380, damageDealt: 1640, roundsPlayed: 25 },
           anomalies: [
             { type: "throw_pattern", description: "Consistent underperformance in critical rounds", severity: "critical", confidence: 84, timestamp: "2024-08-15T20:28:00Z", details: { criticalRoundWinRate: 8, avgRoundWinRate: 52, roundsSuspect: 6 } },
-            { type: "economy_exploit", description: "Deliberate economy disadvantage in key rounds", severity: "warning", confidence: 71, timestamp: "2024-08-15T20:38:00Z", details: { savingOnBuyRound: true, weaponValue: 800 } },
+            { type: "economy_exploit", description: "Deliberate economy disadvantage in key rounds", severity: "warning", confidence: 71, timestamp: "2024-08-15T20:38:00Z", details: { savingOnBuyRound: 1, weaponValue: 800 } },
           ],
           behaviorProfile: { aimConsistency: 60, movementPattern: 40, reactionProfile: 55, gameKnowledge: 82, economyManagement: 25 },
         },
